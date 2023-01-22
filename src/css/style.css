@@ -34,6 +34,29 @@ body {
     
 }
 
+/* .viewer {
+    width: 16.875rem;
+    height: 16.875rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    top: 5.5rem;
+    border-radius: 0.938rem;
+    transition: 0.1s;
+}
+
+.viewer:hover {
+    opacity: 60%;
+
+} */
+
+
+
+
+
 .card .title {
     color: hsl(0, 0%, 100%);
     text-align: left;
