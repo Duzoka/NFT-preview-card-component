@@ -34,26 +34,43 @@ body {
     
 }
 
-/* .viewer {
+.viewer {
     width: 16.875rem;
     height: 16.875rem;
     position: absolute;
+    background: url(../images/icon-view.svg) no-repeat;
+    background-size: 15%;
+    background-position: center;
+    opacity: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(178, 100%, 50%);
-    opacity: 0;
     top: 5.5rem;
     border-radius: 0.938rem;
-    transition: 0.1s;
+    transition: 0.5s ease-in-out;
+    
 }
 
 .viewer:hover {
-    opacity: 60%;
+    background: url(../images/icon-view.svg) no-repeat;
+    background-size: 15%;
+    background-position: center;
+    background-color: rgba(0, 255, 255, 0.402);
+    opacity: 100%; 
 
-} */
+}
 
+/* .img-viewer {
+    position: absolute;
+    top: 13.100rem; 
+    opacity: 0%;
+}
 
+.img-viewer:hover {
+    opacity: 100%;
+    background-color:hsla(178, 100%, 50%, 0.545);
+    background-size: 16.875rem;
+} */ 
 
 
 
