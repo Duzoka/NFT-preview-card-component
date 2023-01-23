@@ -13,3 +13,11 @@
     }
     
 }
+
+@media (min-width: 1360px) {
+
+    .viewer {
+        top: 5.5rem;
+    }
+    
+}
