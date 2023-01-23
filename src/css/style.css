@@ -153,7 +153,7 @@ body {
     border-radius: 25px;
 }
 
-.author h4 {
+.author h2 {
     color: hsl(215, 51%, 70%);
     font-size: 0.875rem;
     font-weight: 300;
