@@ -161,6 +161,8 @@ body {
 
 .author a {
     color: white;
+    font-size: 0.875rem;
+    font-weight: 300;
 }
 
 .author a:hover {
