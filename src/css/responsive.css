@@ -1,15 +1,15 @@
-@media (max-width:375px) {
-    
+@media (min-width: 375px) {
+
     .viewer {
-        top: 10.4rem; 
+        top: 10.4rem;
     }
 
 }
 
-@media (max-width:1440px) {
-    
-    .viewer {
-        top: 13.1rem; 
-    }
+@media (min-width: 1440px) {
 
+    .viewer {
+        top: 13.1rem;
+    }
+    
 }
