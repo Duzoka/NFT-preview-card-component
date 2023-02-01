@@ -1,0 +1,35 @@
+.img-equil{
+border-radius: 12px;
+overflow: hidden;
+position: relative
+
+}
+
+.img-equil img{
+    width: 100%;
+    display: block;
+}
+
+.img-equil_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+}
+
+.img-equil_overlay img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-equil:hover .img-equil_overlay{
+    display:block;
+}
+
+credit: https://github.com/Ogun6ele/nft-preview-card-component-main/blob/master/style.css
